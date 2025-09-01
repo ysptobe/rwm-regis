@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "react-scripts build"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.43.4",
