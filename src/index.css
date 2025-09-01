@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700&display=swap');
+@font-face {
+  font-family: 'LINE Seed Sans TH';
+  src: url('./font/LINESeedSansTH_Rg.otf') format('opentype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'LINE Seed Sans TH';
+  src: url('./font/LINESeedSansTH_Bd.otf') format('opentype');
+  font-weight: 700;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'LINE Seed Sans TH', 'Sarabun', sans-serif;
+  @apply bg-gray-50 text-gray-800;
+  background: #f8fafc;
+  color: #222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'LINE Seed Sans TH', 'Sarabun', sans-serif;
+}
+
+input, select, textarea, button {
+  font-family: inherit;
+}
